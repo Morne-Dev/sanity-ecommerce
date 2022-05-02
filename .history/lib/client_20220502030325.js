@@ -1,5 +1,5 @@
 import sanityClient from '@sanity/client';
-import imageUrlBuilder from '@sanity/image-url';
+import imageUrlBuilder from '@sanity/image_ur';
 
 export const client = sanityClient({
     projectId: 'tkt0cbsy',

@@ -2,10 +2,9 @@ import React from 'react';
 
 import { Product, FooterBanner, HeroBanner } from '../components';
 
-const Home = () => (
+const Home = ({ products, bannerData }) => (
   <div>
     <HeroBanner/>
-
     <div className="products-heading">
       <h2>Best Seller Products</h2>
       <p>speaker There are many variations passages</p>
@@ -18,6 +17,6 @@ const Home = () => (
 
     <FooterBanner />
   </div> 
-);
+};
 
 export default Home;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Product, FooterBanner, HeroBanner } from '../components';
 
-const Home = () => (
+const Home = ({ products, bannerData }) => (
   <div>
     <HeroBanner/>
 

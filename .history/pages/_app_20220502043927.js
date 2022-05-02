@@ -5,7 +5,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <Layoutout>
       <Component {...pageProps} />
     </Layout>
   )

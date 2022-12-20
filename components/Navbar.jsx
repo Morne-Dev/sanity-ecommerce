@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Sanity CMS backend with stripe demo</Link>
+        <Link href="/">Sanity backend CMS with stripe checkout demo</Link>
       </p>
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
